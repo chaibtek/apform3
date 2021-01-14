@@ -33,7 +33,7 @@ class Product
     private $slug;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="Product")
+     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="product")
      */
     private $category;
 
